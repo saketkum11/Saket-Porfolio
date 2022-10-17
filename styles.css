@@ -1,0 +1,78 @@
+/* universal selectors
+*{
+
+} 
+
+*/
+
+.para1{
+    width: 600px;
+   height: 2rem;
+}
+/* type selector */ 
+
+/*
+a:hover{
+ background-color: aqua;
+}
+
+
+/* class selector */
+
+.para-sec{
+    color: black;
+}
+.lorem-one:hover{
+ background-color: blueviolet;
+}
+
+/* id selector */ 
+#fruit:hover{
+    background-color: cadetblue;
+}
+
+/* attributes selectors */ 
+
+a[href="#internal"] {
+    background-color: yellow;
+}
+/*
+span{
+    font-size: 1rem;
+    background-color: coral;
+}
+div{
+    font-size: 1rem;
+    background-color: coral;
+}
+*/
+/* 
+span,div,p {
+    font-size: 1rem;
+    background-color: coral;
+}
+*/
+
+
+
+  
+li li {
+    list-style-type: circle;
+    background-color: plum;
+  }
+
+
+  ul {
+    background-color: yellow;
+  }
+  ul > *{
+    background-color: red;
+  }
+ 
+  span {
+    background-color: aqua;
+  }
+  
+  div > span {
+    background-color: yellow;
+  }
