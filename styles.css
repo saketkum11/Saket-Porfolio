@@ -54,7 +54,7 @@ span,div,p {
 */
 
 
-
+/*
   
 li li {
     list-style-type: circle;
@@ -76,3 +76,27 @@ li li {
   div > span {
     background-color: yellow;
   }
+ 
+  */
+ /* 
+  p ~ span {
+    color: red;
+  }
+
+  .sibling:hover{
+    font-weight: bold;
+    background-color: yellow;
+  }
+ 
+*/
+
+p{
+  color: blueviolet;
+}
+.paragraph{
+  color: aquamarine;
+}
+#book{
+  color: chocolate;
+}
+
