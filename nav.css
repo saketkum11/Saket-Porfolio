@@ -6,6 +6,9 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+header{
+    width: 100%;
+}
 .logo{
     font-weight: bold;
     font-size: 2rem;
@@ -15,8 +18,8 @@ body{
     text-decoration: none;
 }
 .container{
+    
     background-color: black;
-    height: 10vh;
     justify-content: space-between;
 }
 .lists{
@@ -29,12 +32,41 @@ body{
     align-items: center;
     
 }
-.font-size-lg{
-  font-size: 1.5rem;
-}
+
 .pd{
     padding: 1rem;
 }
 .pd-1{
     padding:2rem ;
 }
+  .parent {
+    display: flex;
+    gap: 20px;
+  }
+  .child {
+    background-color: chartreuse;
+    height: 100px;
+    flex: 1;
+  }
+  @media screen and (max-width: 600px) {
+    .parent {
+      flex-direction: column;
+    }
+  }
+  @media screen and (min-width: 500px) {
+    .child {
+      background-color: cornflowerblue;
+    }
+  }
+  @media screen and  (max-width: 650px){
+    .container{
+     flex-direction: column;
+    }
+     .navigate{
+      flex-direction: column
+     }
+     
+    
+  };
+    
+  
